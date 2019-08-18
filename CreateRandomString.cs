@@ -4,7 +4,7 @@ using System.Net.Mail;
 
 namespace Web_Programming_Project.Methods 
 {
-    public class CreateRandomString 
+    public class CreateRandomString
     {
         private static Random random = new Random();
         public static string randomString(int length)
