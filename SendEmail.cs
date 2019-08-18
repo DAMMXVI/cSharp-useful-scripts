@@ -10,10 +10,10 @@ namespace Web_Programming_Project.Methods
         {
             try
             {
-                MailMessage mail = new MailMessage("mailiniz@gmail.com", toMail, subject, body);
+                MailMessage mail = new MailMessage("yourmail@gmail.com", toMail, subject, body);
                 SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
-                client.Credentials = new System.Net.NetworkCredential("mailiniz@gmail.com", "şifreniz");
+                client.Credentials = new System.Net.NetworkCredential("yourmail@gmail.com", "yourpass");
                 client.EnableSsl = true;
                 client.Send(mail);
                 return true;
