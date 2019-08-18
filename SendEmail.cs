@@ -4,7 +4,7 @@ using System.Net.Mail;
 
 namespace Web_Programming_Project.Methods
 {
-    public class Favorites 
+    public class Sendmail 
     {
         public static bool sendMail(string toMail, string subject, string body)
         {
