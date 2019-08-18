@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Net.Mail;
 
-namespace Web_Programming_Project.Methods
+namespace Web_Programming_Project.Methods 
 {
     public class CreateRandomString 
     {
